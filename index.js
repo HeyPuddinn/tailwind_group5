@@ -25,6 +25,17 @@ $(document).ready(function(){
   });
 });	
 
+// slick slider testimonial
+$(document).ready(function(){
+  $('.list-testimonial').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrows:false
+  });
+});	
+
 // navbar
 function scrollHeader(){
   const nav = document.getElementById('header-wrap');
