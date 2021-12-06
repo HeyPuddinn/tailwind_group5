@@ -69,3 +69,11 @@ body{
   @apply h-72 visible shadow-xl transition-shadow !important;
   transition: 0.3 all ease-in-out;
 }
+
+.icon-footer{
+  @apply text-base !important;
+}
+
+.scroll-top{
+  @apply visible bottom-6;
+}
